@@ -1,0 +1,83 @@
+/* body{
+    margin: 0;
+    padding: 0;
+}
+
+.converter-body{
+    margin: 400px;
+    padding: 50px;
+    height: 200px;
+    background: red;
+
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #00203FFF;
+}
+.converter-body{
+	width: 450px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0px 0px 30px black;
+	background-color: #ADEFD1FF;
+     
+	border: 1px solid black;
+	border-radius: 10px;
+
+}
+
+
+
+.converter-title{
+	
+	text-align: center;
+	margin: 13px 0px;
+	font-size: 40px;
+    font-weight: bolder;
+	text-decoration: underline;
+    
+ 
+
+}
+input{
+	height: 25px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+}
+
+#input{
+	margin-left: 25px;
+	font-weight: bold;
+}
+#inputType,#resultType{
+	width: 164.66px;
+	margin-left: 25px;
+	color: black;
+	border: 2px solid black;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+	border-radius: 5px;
+	height: 24px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#result{
+    font-weight: bold;
+
+}
+#resultType{
+	margin-left: 12.5px;
+	font-weight: bolder;
+}
